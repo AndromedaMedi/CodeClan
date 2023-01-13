@@ -1,0 +1,36 @@
+/* .App {
+  text-align: center;
+  width: 90%;
+  background-color:lightgrey;
+} */
+
+div {
+  text-align: center;
+  background-color: antiquewhite;
+  margin: 20px;
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  text-align: center;
+  background-color:cornflowerblue;
+  padding: 5px;
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+  
+}
+.button:hover {
+  color: blue;
+}
+
+a {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}

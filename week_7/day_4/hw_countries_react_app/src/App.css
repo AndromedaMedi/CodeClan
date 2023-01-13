@@ -1,0 +1,57 @@
+.App {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: url('/src/pexels-monstera-7412094.jpg');
+    background-size: cover;
+    padding: 10px;
+    margin: 0px;
+
+}
+
+li {
+    list-style: none;
+    text-decoration: underline;
+    color: brown;
+}
+
+
+.location-details{
+    border: 2px solid cadetblue;
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    padding: 1rem;
+    text-align:center;
+    background-color: #d2691e80;
+}
+
+.location-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+select {
+    background-color:cadetblue;
+    height: 2rem;
+    color: ivory;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h5 {
+    font-size: large;
+    color: ivory;
+}
+
+h1 {
+    color: chocolate;
+}
+
+h2 {
+    color: ivory;
+}
+
+h4 {
+    color: cadetblue;
+    font-style: italic;
+    font-size: large;
+}

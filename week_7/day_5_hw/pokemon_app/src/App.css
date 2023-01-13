@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  /* background-size: 3000px 1210px; */
+  background-size: 1100px 470px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('/src/images/pokemon.jpeg');
+  width:100%;
+  height:100%;
+  font-family:'Courier New', Courier, monospace;
+  padding: 0;
+
+}
+
+li {
+  list-style:none;
+  text-decoration: underline;
+}
+
+.pokemon-details {
+  display: table;
+  text-align: center;
+  margin: 0px auto 0px auto;
+}
+
+img, p, h4, h2, li {
+  background-color:#ffe4c4;
+  border-radius: 5rem;
+}
+
+select option {
+  size: 5rem;
+}
+
