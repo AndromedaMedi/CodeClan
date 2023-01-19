@@ -19,9 +19,7 @@ const LocationDetails = ({location}) => {
             <li>Capital</li>
             <h5>{location.capital}</h5>
             <li>Currency</li>
-            <h5>{currencies}</h5>
-            {/* <li>Flag</li> */}
-            
+            <h5>{currencies}</h5>     
         </div>
     )
 }

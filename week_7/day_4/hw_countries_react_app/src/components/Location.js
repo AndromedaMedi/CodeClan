@@ -7,14 +7,8 @@ const Location = ({location, name, capital, languages, currencies, demonyms, onL
     }
 
     return (
-        <div className="country"
-            onClick={handleClick}>
-                {name}
-                {/* {capital} */}
-                {/* {languages} */}
-                {/* {currencies} */}
-                {/* {flag} */}
-    
+        <div className="country" onClick={handleClick}>
+            {name}
         </div>
     )
 }

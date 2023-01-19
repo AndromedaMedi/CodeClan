@@ -9,15 +9,7 @@ const LocationSelector = ({locations, onLocationSelected}) => {
     }
 
     const locationOptions = locations.map((location, index) => {
-        return <OptionLocation 
-        key={index}
-        location={location}
-        // name={location.name.common}
-        // capital={location.capital}
-        // languages={location.languages}
-        // currencies={location.currencies.name}
-        // flag={location.flag}
-        index={index}/>
+        return <OptionLocation key={index} location={location} index={index}/>
     })
 
 

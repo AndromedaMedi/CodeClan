@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import LocationList from '../components/LocationList';
 import LocationDetails from '../components/LocationDetails';
 import LocationSelector from '../components/LocationSelector';
 
