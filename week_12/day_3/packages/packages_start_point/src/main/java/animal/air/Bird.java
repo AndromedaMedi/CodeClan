@@ -2,7 +2,7 @@ package animal.air;
 
 public class Bird {
 
-    protected String speak(){
+    public String speak(){
         return "Tweet Tweet";
     }
 }
