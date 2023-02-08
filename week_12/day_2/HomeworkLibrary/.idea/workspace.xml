@@ -4,35 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c0cc971-b296-4dad-a29e-0cf85e5c6c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../BearRiverFish/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BearRiverFish/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BearRiverFish/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BearRiverFish/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BearRiverFish/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BearRiverFish/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BearRiverFish/src/main/java/Bear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BearRiverFish/src/main/java/River.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BearRiverFish/src/main/java/Salmon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BearRiverFish/src/test/java/BearTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BearRiverFish/src/test/java/RiverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Borrower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BooksTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Books.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Library.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/BooksTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" afterDir="false" />
+    <list default="true" id="6c0cc971-b296-4dad-a29e-0cf85e5c6c86" name="Changes" comment="adding w12 d2 content and hw">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +43,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.BorrowerTest.canAddBookToCollection">
@@ -141,6 +115,22 @@
       <option name="presentableId" value="Default" />
       <updated>1675779146214</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding w12 d2 content and hw">
+      <created>1675807093033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675807093033</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding w12 d2 content and hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding w12 d2 content and hw" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
