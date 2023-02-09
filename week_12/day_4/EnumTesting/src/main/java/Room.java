@@ -1,0 +1,20 @@
+public class Room {
+
+    public RoomType roomType;
+
+    public Room(RoomType roomType) {
+        this.roomType = roomType;
+    }
+
+    public RoomType getRoomType() {
+        return roomType;
+    }
+
+    public int getValueFromEnum() {
+        return this.roomType.getValue();
+    }
+
+    public int getCapacityFromEnum() {
+        return this.roomType.getCapacity();
+    }
+}
