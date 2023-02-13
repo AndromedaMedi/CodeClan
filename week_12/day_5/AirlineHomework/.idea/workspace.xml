@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d95a2e8-305a-477e-95cc-566a919d838b" name="Changes" comment="adding airline hw MVP done">
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/src/main/java/IMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/src/main/java/IStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/src/main/java/IStop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/target/classes/Bicycle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/target/classes/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/target/classes/IMove.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/target/test-classes/BicycleTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/src/main/java/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/src/test/java/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/target/classes/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/target/classes/Convert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/target/classes/Converter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/target/classes/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/target/test-classes/CarTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
-    </list>
+    <list default="true" id="4d95a2e8-305a-477e-95cc-566a919d838b" name="Changes" comment="adding airline hw MVP done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
