@@ -10,7 +10,6 @@ public class Flight {
     private String destination;
     private String departureAirport;
     private String departureTime;
-    private Passenger passenger;
 
     public Flight(Pilot pilot, Plane plane, String flightNumber, String destination, String departureAirport, String departureTime) {
         this.pilot = pilot;
