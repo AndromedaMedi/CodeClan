@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface IMove {
+public interface IMove {
+
+    public void move(int distance);
 }

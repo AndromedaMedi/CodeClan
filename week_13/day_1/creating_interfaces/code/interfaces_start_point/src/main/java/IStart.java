@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface IStart {
+public interface IStart {
+
+    public String start();
 }

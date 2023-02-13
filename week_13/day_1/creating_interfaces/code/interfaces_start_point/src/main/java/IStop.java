@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface IStop {
+public interface IStop {
+    public String stop();
 }
