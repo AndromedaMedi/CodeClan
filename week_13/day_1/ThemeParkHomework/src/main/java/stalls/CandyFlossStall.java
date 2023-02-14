@@ -9,12 +9,12 @@ public class CandyFlossStall extends Stall implements IReviewed {
     }
 
     @Override
-    public int getRating(int rating) {
+    public int getRating() {
         return rating;
     }
 
     @Override
-    public String getName(String name) {
+    public String getName() {
         return name;
     }
 }

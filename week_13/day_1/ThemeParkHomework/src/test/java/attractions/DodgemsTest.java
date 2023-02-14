@@ -3,6 +3,7 @@ package attractions;
 import org.junit.Before;
 import org.junit.Test;
 import people.Visitor;
+import java.*;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,6 +12,7 @@ public class DodgemsTest {
     private Dodgems dodgems;
 
     private Visitor visitor;
+
 
     @Before
     public void before() {

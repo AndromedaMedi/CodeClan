@@ -8,16 +8,10 @@ public class Rollercoaster extends Attraction implements ISecurity, ITicketed {
 
     Visitor visitor;
 
-
     public Rollercoaster(String name, int rating) {
         super(name, rating);
     }
-    public String getName() {
-        return name;
-    }
-    public int getRating() {
-        return rating;
-    }
+
     @Override
     public boolean isAllowed(Visitor visitor) {
         int height = visitor.getHeight();
