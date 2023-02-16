@@ -51,6 +51,7 @@ public class Room {
         int outcome = inventory + treasure;
         player.setInventory(outcome);
         } else {
+            //if player is a magicPerson
             MagicPerson magicPerson = (MagicPerson) player;
             while (enemy.getHealthBar() > 0) {
                 int enemyHealth = enemy.getHealthBar();
