@@ -37,7 +37,7 @@ E.g. A house has a roof, a roof is part of a house.
 
 8. Give a difference between composition and aggregation?
 
-Same as the above example, when one object (roof) is part of another object (house) then the relationship between them is composition.
+Same as the above example, when one object (roof) 'is part of' another object (house) then the relationship between them is composition.
 When one object (house) 'has' another object (roof), that's Aggregation.
 
 9. What is/are the advantage(s) of using composition/aggregation?
