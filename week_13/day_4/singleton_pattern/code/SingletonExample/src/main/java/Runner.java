@@ -8,7 +8,7 @@ public class Runner {
 
         System.out.println(singleton2.getData().toUpperCase());
 
-        singleton2.setData("The data has changed");
+        singleton2.setData("The data has changed.");
 
         Singleton singleton3 = Singleton.getInstance();
         System.out.println(singleton3.getData());
