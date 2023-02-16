@@ -1,3 +1,5 @@
+import Exceptions.NullStringException;
+import behaviours.Pet;
 import pets.Cat;
 import pets.Dog;
 import pets.Fish;
@@ -7,8 +9,18 @@ public class ExampleTryCatch{
 
     public void run(){
         setup();
-        shop.findPetByName(null);
-
+        try {
+            Pet found = shop.findPetByName(null);
+            System.out.println("Found pet: " + found.getName());
+        }
+        catch (NullStringException ex) {
+            ex.printStackTrace();
+            System.out.println("Exception Message: ");
+            System.out.println(ex.getMessage());
+        }
+        finally {
+            System.out.println("I'm done");
+        }
     }
 
     public void setup(){
