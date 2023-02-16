@@ -27,7 +27,8 @@ We can have different types of animals that implement an Eat interface.
 
 6. What do we mean by 'composition' in reference to object-oriented programming?
 
-'composition' in OOP describes a class than refers to objects of other class variables. That class is 'composed' out of other classes.
+'composition' in OOP describes a class than refers to objects of other class variables. 
+That class is 'composed' out of other classes.
 
 7. When would you use composition? Provide a simple example in Java.
 
@@ -37,12 +38,14 @@ E.g. A house has a roof, a roof is part of a house.
 
 8. Give a difference between composition and aggregation?
 
-Same as the above example, when one object (roof) 'is part of' another object (house) then the relationship between them is composition.
+Same as the above example, when one object (roof) 'is part of' another object (house) then 
+the relationship between them is composition.
 When one object (house) 'has' another object (roof), that's Aggregation.
 
 9. What is/are the advantage(s) of using composition/aggregation?
 
-Achieving polymorphism through using composition instead of inheritance, can be advantageous since it's more flexible, it allows the class to change behaviour by changing included object. 
+Achieving polymorphism through using composition instead of inheritance, can be advantageous 
+since it's more flexible, it allows the class to change behaviour by changing included object. 
 Aggregation relationship can be more semantically correct. It also increases the usability of the code.
 
 10. When using composition, when an object is destroyed, what happens to all the objects it is composed of?
