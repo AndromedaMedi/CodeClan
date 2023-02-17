@@ -20,11 +20,11 @@ public class MusicShop {
         return stock.size();
     }
 
-    void buy(StockItem stockItem) {
+    void addToStock(StockItem stockItem) {
         this.stock.add(stockItem);
     }
 
-    void sell(ISell stockItem) {
+    void removeFromStock(ISell stockItem) {
         this.stock.remove(stockItem);
     }
 

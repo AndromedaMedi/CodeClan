@@ -31,24 +31,24 @@ public class MusicShopTest {
 
     @Test
     public void shopCanBuyStock() {
-        musicShop.buy(stockItem1);
+        musicShop.addToStock(stockItem1);
         assertEquals(1, musicShop.getStockCount());
     }
 
     @Test
     public void shopCanSellStock() {
-        musicShop.buy(stockItem1);
-        musicShop.buy(stockItem2);
-        musicShop.sell(stockItem1);
+        musicShop.addToStock(stockItem1);
+        musicShop.addToStock(stockItem2);
+        musicShop.removeFromStock(stockItem1);
         assertEquals(1, musicShop.getStockCount());
     }
 
     @Test
     public void shopCanGetTotalMarkup() {
-        musicShop.buy(stockItem1);
-        musicShop.buy(stockItem2);
-        musicShop.buy(stockItem3);
-        musicShop.buy(stockItem4);
+        musicShop.addToStock(stockItem1);
+        musicShop.addToStock(stockItem2);
+        musicShop.addToStock(stockItem3);
+        musicShop.addToStock(stockItem4);
         assertEquals(1027.50, musicShop.calculateMarkup(), 0.1);
     }
 
