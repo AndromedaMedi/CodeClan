@@ -16,12 +16,8 @@ import static org.junit.Assert.assertEquals;
 public class WarriorTest {
 
     private Warrior warrior;
-    private Player player1;
-    private Player player2;
-    private Dwarf dwarf;
     private Wizard wizard;
     private Cleric cleric;
-    MagicPerson magicPerson;
 
 
     @Before

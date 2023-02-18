@@ -10,8 +10,6 @@ import players.magicPeople.Wizard;
 public abstract class Warrior extends Player implements IFight, IChange {
 
     private WeaponType weaponType;
-    private Player player;
-//    MagicPerson magicPerson;
 
 
     public Warrior(String name, int healthBar, WeaponType weaponType) {
