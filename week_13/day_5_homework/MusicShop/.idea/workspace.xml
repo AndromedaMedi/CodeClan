@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eaa9951-d8ed-4ab5-97f6-acdcad309c5a" name="Changes" comment="adding d5 weekend hw MusicShop MVP done">
+      <change beforePath="$PROJECT_DIR$/../../../week_12/day_2/BusLab/src/main/java/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week_12/day_2/BusLab/src/main/java/Bus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day_1/ThemeParkHomework/src/main/java/attractions/Attraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day_1/ThemeParkHomework/src/main/java/attractions/Attraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676656350728</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding d5 weekend hw MusicShop MVP done">
+      <created>1676656511317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676656511317</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adding d5 weekend hw MusicShop MVP done">
+      <created>1676656534564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676656534564</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -2,7 +2,6 @@ package attractions;
 
 import behaviours.IReviewed;
 
-import java.util.ArrayList;
 
 public abstract class Attraction implements IReviewed {
 
