@@ -49,7 +49,7 @@ public class MusicShopTest {
         musicShop.addToStock(stockItem2);
         musicShop.addToStock(stockItem3);
         musicShop.addToStock(stockItem4);
-        assertEquals(1027.50, musicShop.calculateMarkup(), 0.1);
+        assertEquals(1027.50, musicShop.calculateTotalMarkup(), 0.1);
     }
 
 

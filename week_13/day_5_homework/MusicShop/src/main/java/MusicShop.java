@@ -2,6 +2,7 @@ import behaviours.ISell;
 import stock.StockItem;
 
 import java.util.ArrayList;
+import java.util.stream.Stream;
 
 public class MusicShop {
 
@@ -28,11 +29,18 @@ public class MusicShop {
         this.stock.remove(stockItem);
     }
 
-    public double calculateMarkup() {
+    public double calculateTotalMarkup() {
         double total = 0;
         for (ISell stockItem : stock){
             total += stockItem.calculateMarkup();
         }
         return total;
     }
+
+//    public double calculateMarkup() {
+//        return stock.stream()
+//                .map(ISell
+//                .map(sellable -> sellable.calculateMarkup())
+//                .reduce(0, double::sum));
+//    }
 }

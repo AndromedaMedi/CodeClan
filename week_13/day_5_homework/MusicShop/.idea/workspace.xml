@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eaa9951-d8ed-4ab5-97f6-acdcad309c5a" name="Changes" comment="adding d5 weekend hw MusicShop MVP done">
-      <change beforePath="$PROJECT_DIR$/../../../week_12/day_2/BusLab/src/main/java/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week_12/day_2/BusLab/src/main/java/Bus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day_1/ThemeParkHomework/src/main/java/attractions/Attraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day_1/ThemeParkHomework/src/main/java/attractions/Attraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MusicShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MusicShopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
