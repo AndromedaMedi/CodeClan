@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaa9951-d8ed-4ab5-97f6-acdcad309c5a" name="Changes" comment="adding d5 weekend hw MusicShop MVP done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MusicShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MusicShopTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="4eaa9951-d8ed-4ab5-97f6-acdcad309c5a" name="Changes" comment="adding d5 weekend hw MusicShop MVP done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676656534564</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding d5 weekend hw MusicShop MVP done">
+      <created>1676888893843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676888893843</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
