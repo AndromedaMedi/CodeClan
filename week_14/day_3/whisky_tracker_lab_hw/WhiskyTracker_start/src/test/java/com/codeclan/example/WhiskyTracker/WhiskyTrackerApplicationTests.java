@@ -33,13 +33,13 @@ public class WhiskyTrackerApplicationTests {
 	@Test
 	public void canGetWhiskiesForYear() {
 		List<Whisky> foundWhiskies = whiskyRepository.findByYear(1995);
-		assertEquals(5, foundWhiskies.size());
+		assertEquals(1, foundWhiskies.size());
 	}
 
 	@Test
 	public void canGetDistilleryForRegion() {
 		List<Distillery> foundDistilleries = distilleryRepository.findByRegion("Highland");
-		assertEquals(15, foundDistilleries.size());
+		assertEquals(3, foundDistilleries.size());
 	}
 
 	@Test
@@ -52,6 +52,12 @@ public class WhiskyTrackerApplicationTests {
 	public void canGetWhiskiesForRegion() {
 		List<Whisky> foundWhiskies = whiskyRepository.findByDistilleryRegion("Highland");
 		assertEquals(7, foundWhiskies.size());
+	}
+
+	@Test
+	public void canGetDistilleriesForWhiskeyAge() {
+		List<Distillery> foundWhiskies = distilleryRepository.findByWhiskiesAge(12);
+		assertEquals(6, foundWhiskies.size());
 	}
 
 }
