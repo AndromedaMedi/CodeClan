@@ -1,6 +1,7 @@
 package com.codeclan.example.files_and_folders.controllers;
 
 import com.codeclan.example.files_and_folders.models.File;
+import com.codeclan.example.files_and_folders.models.Person;
 import com.codeclan.example.files_and_folders.repositories.FileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,13 +19,15 @@ public class FileController {
 
 
     @GetMapping(value = "/files")
-    public List<File> getAllFiles() {
-        return fileRepo.findAll();
+    public ResponseEntity<List<File>> getAllFiles() {
+        List<File> foundFiles = fileRepo.findAll();
+        return new ResponseEntity<>(foundFiles, HttpStatus.OK);
     }
 
     @GetMapping(value = "/files/{id}")
-    public Optional<File> getAFile(@PathVariable Long id) {
-        return fileRepo.findById(id);
+    public ResponseEntity getAFile(@PathVariable Long id) {
+        Optional<File> foundFile = fileRepo.findById(id);
+        return new ResponseEntity(foundFile, HttpStatus.OK);
     }
 
     @PostMapping(value = "/files")
