@@ -1,6 +1,5 @@
 package com.codeclan.example.files_and_folders.controllers;
 
-import com.codeclan.example.files_and_folders.models.File;
 import com.codeclan.example.files_and_folders.models.Person;
 import com.codeclan.example.files_and_folders.repositories.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;

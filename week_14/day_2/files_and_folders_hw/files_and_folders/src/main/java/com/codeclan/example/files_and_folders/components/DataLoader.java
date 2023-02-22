@@ -1,7 +1,5 @@
 package com.codeclan.example.files_and_folders.components;
 
-import com.apple.eawt.Application;
-import com.codeclan.example.files_and_folders.FilesAndFoldersApplication;
 import com.codeclan.example.files_and_folders.models.File;
 import com.codeclan.example.files_and_folders.models.Folder;
 import com.codeclan.example.files_and_folders.models.Person;
@@ -36,37 +34,37 @@ public class DataLoader implements ApplicationRunner {
         Person tim = new Person("Tim");
         personRepo.save(tim);
 
-        Folder colours = new Folder("Colours", jane);
-        folderRepo.save(colours);
+        Folder folder1 = new Folder("Folder1", jane);
+        folderRepo.save(folder1);
 
-        Folder shapes = new Folder("Shapes", jane);
-        folderRepo.save(shapes);
+        Folder folder2 = new Folder("Folder2", jane);
+        folderRepo.save(folder2);
 
-        Folder materials = new Folder("Materials", dave);
-        folderRepo.save(materials);
+        Folder folder3 = new Folder("Folder3", dave);
+        folderRepo.save(folder3);
 
-        File red = new File("Red", "rb", 5, colours);
-        fileRepo.save(red);
+        File file1 = new File("File1", "rb", 5, folder1);
+        fileRepo.save(file1);
 
-        File yellow = new File("Yellow", "java", 8, colours);
-        fileRepo.save(yellow);
+        File file2 = new File("File2", "java", 8, folder1);
+        fileRepo.save(file2);
 
-        File green = new File("Green", "txt", 6, colours);
-        fileRepo.save(green);
+        File file3 = new File("File3", "txt", 6, folder1);
+        fileRepo.save(file3);
 
-        File square = new File("Square", "java", 4, shapes);
-        fileRepo.save(square);
+        File file4 = new File("File4", "java", 4, folder2);
+        fileRepo.save(file4);
 
-        File circle = new File("Circle", "ruby", 1, shapes);
-        fileRepo.save(circle);
+        File file5 = new File("File5", "ruby", 1, folder2);
+        fileRepo.save(file5);
 
-        File triangle = new File("Triangle", "txt", 3, shapes);
-        fileRepo.save(triangle);
+        File file6 = new File("File6", "txt", 3, folder2);
+        fileRepo.save(file6);
 
-        File wood = new File("Wood", "py", 2, materials);
-        fileRepo.save(wood);
+        File file7 = new File("File7", "py", 2, folder3);
+        fileRepo.save(file7);
 
-        File iron = new File("Iron", "py", 9, materials);
-        fileRepo.save(iron);
+        File file8 = new File("File8", "py", 9, folder3);
+        fileRepo.save(file8);
     }
 }
