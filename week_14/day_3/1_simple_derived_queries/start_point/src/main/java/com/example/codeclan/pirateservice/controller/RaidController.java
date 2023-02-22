@@ -2,6 +2,7 @@ package com.example.codeclan.pirateservice.controller;
 
 import com.example.codeclan.pirateservice.models.Pirate;
 import com.example.codeclan.pirateservice.models.Raid;
+import com.example.codeclan.pirateservice.models.Ship;
 import com.example.codeclan.pirateservice.repository.RaidRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -9,6 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class RaidController {
@@ -16,8 +18,12 @@ public class RaidController {
     @Autowired
     RaidRepository raidRepository;
 
+
     @GetMapping(value = "/raids")
-    public ResponseEntity<List<Raid>> getAllRaids(){
+    public ResponseEntity<List<Raid>> getAllRaids(@RequestParam Optional<String> raidLocation){
+        if (raidLocation.isPresent()) {
+            return new ResponseEntity<>(raidRepository.findByLocation(raidLocation.get()), HttpStatus.OK);
+        }
         return new ResponseEntity<>(raidRepository.findAll(), HttpStatus.OK);
     }
 
